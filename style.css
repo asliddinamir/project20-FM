@@ -87,6 +87,10 @@ body {
     font-style: italic;
 }
 
+.stats span {
+    color: #874cfc;
+}
+
 footer {
     font-size: 12px;
     text-align: center;
