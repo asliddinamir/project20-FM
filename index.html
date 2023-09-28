@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
 
   <title>Frontend Mentor | Age calculator app</title>
 
@@ -14,23 +15,35 @@
 
 <body>
 
-  Day
-  DD
+  <main class="container">
+    <div class="inputs">
+      <div class="inputEl">
+        <label for="input">Day</label>
+        <input type="number" placeholder="DD">
+      </div>
+      <div class="inputEl">
+        <label for="input">Month</label>
+        <input type="number" placeholder="MM">
+      </div>
+      <div class="inputEl">
+        <label for="input">Year</label>
+        <input type="number" placeholder="YYYY">
+      </div>
+    </div>
+    <hr>
+    <button class="btn"><img src="./assets/images/icon-arrow.svg" alt="icon"></button>
+    <div class="stats">
+      <h1><span>-- </span>years</h1>
+      <h1><span>-- </span>months</h1>
+      <h1><span>-- </span>days</h1>
+    </div>
+  </main>
 
-  Month
-  MM
-
-  Year
-  YYYY
-
-  -- years
-  -- months
-  -- days
-
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://asliddinamirov.netlify.app">Asliddin Amirov</a>.
-  </div>
+  </footer>
 </body>
+<script src="script.js"></script>
 
 </html>
