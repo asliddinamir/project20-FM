@@ -51,7 +51,7 @@ body {
     border-radius: 5px;
     padding: 15px 20px;
     font-size: 25px;
-    width: 150px;
+    max-width: 150px;
     font-family: inherit;
     border: 1px solid gray;
 }
@@ -107,6 +107,7 @@ footer a {
     .container {
         padding: 3rem 10px;
         height: auto;
+        border-radius: 2rem 2rem 8rem 2rem;
     }
 
     .inputs {
@@ -131,5 +132,39 @@ footer a {
     .stats {
         font-size: 25px;
         margin-top: 2rem;
+    }
+}
+
+@media(max-width:400px) {
+    .container {
+        height: auto;
+    }
+
+    .inputs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inputEl {
+        width: 100%;
+    }
+
+    .inputEl input {
+        min-width: 100%;
+    }
+
+    .btn {
+        top: 380px;
+    }
+
+    .stats {
+        font-size: 18px;
+        padding-top: 1rem;
+        padding-left: 1rem;
+    }
+
+    footer {
+        font-size: 8px;
     }
 }
