@@ -22,7 +22,7 @@ body {
     height: 651px;
     background-color: white;
     border-radius: 2rem 2rem 14rem 2rem;
-    padding: 4rem;
+    padding: 3rem;
     position: relative;
 }
 
@@ -56,6 +56,11 @@ body {
     border: 1px solid gray;
 }
 
+.error-message {
+    font-size: 10px;
+    color: red;
+}
+
 .line {
     border: 1px solid hsl(0, 0%, 86%);
     margin-top: 3rem;
@@ -70,7 +75,7 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 170px;
+    top: 165px;
     right: 5%;
     cursor: pointer;
     border: none;
@@ -127,7 +132,7 @@ footer a {
 
     .btn {
         left: 50%;
-        top: 160px;
+        top: 170px;
         transform: translateX(-50%);
         width: 70px;
         height: 70px;
@@ -159,7 +164,7 @@ footer a {
     }
 
     .btn {
-        top: 380px;
+        top: 415px;
     }
 
     .stats {
