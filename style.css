@@ -96,3 +96,40 @@ footer {
 footer a {
     color: red;
 }
+
+@media(max-width:878px) {
+    .container {
+        width: 95%;
+    }
+}
+
+@media(max-width:783px) {
+    .container {
+        padding: 3rem 10px;
+        height: auto;
+    }
+
+    .inputs {
+        width: 100%;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .inputEl input {
+        padding: 10px 20px;
+        max-width: 200px;
+    }
+
+    .btn {
+        left: 50%;
+        top: 160px;
+        transform: translateX(-50%);
+        width: 70px;
+        height: 70px;
+    }
+
+    .stats {
+        font-size: 25px;
+        margin-top: 2rem;
+    }
+}
